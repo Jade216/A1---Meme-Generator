@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    /* background-color: #242118; */
+    color: beige;
+}
+
+button{
+    background-color: yellowgreen;
+    color: rgb(30, 31, 82);
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.divImg {
+    border: solid 2px black;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    width: auto;
+    height: 50vh;
+    overflow: hidden;
+    
+}
+
+.divImg img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    
+}
+ 
+.divTop {
+    color: black;
+    display: flex;
+    position: absolute;
+    top: 180px;
+    left: 50vw;
+    
+} 
+
+.divBtm {
+    display: flex;
+    position: absolute;
+    bottom: 40vh;
+    left: 50vw;
+    color: black;
+    
+}  
+
+img:hover {
+    cursor: pointer;
+}
